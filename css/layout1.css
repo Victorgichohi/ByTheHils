@@ -1,5 +1,5 @@
 .menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -8,7 +8,7 @@
   height: 50px;
   background-color: #610a56;
   width: 100%;
-  
+
   margin: 0 auto;
 }
 /*.menu-items{
@@ -28,6 +28,7 @@
 }
 .menu-items {
   display: inline-block;
+  padding-left: 30%;
 }
 
 .menu-items li {
