@@ -325,6 +325,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*end of drinks section*/
 
 /*start of jazz band section*/
+.open-mic{
+  height: 100vh;
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
 
+  ),url(../images/open-mic.jpg);
+  background-size: cover;
+}
+.open-mic-title{
+  height:30vh;
+
+}
+.open-mic-title h2{
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: rgb(111, 230, 17);
+  padding-left: 50px;
+}
+.open-mic-description{
+  height: 20vh;
+  /*color: rgb(244, 244, 244);*/
+}
+.open-mic-image{
+  height: 20vh;
+  background-image: url(../images/open-mic2.png);
+  background-size: cover;
+}
+.open-mic-sales{
+  background-color: rgb(237, 237, 237);
+}
+.open-mic-sales h3{
+
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.open-mic-time{
+  background-color: rgb(80, 65, 9);
+  height: 20vh;
+}
+.open-mic-time h4{
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  color: rgb(111, 230, 17);
+}
+.open-mic-time p{
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(222, 200, 207);
+}
 /*jazz band section end*/
 /*food.html styling end*/
