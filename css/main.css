@@ -30,11 +30,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 
 /*nav bar settings*/
+
 @media screen and (min-width: 768px){
     CSS
 }
 #custom-nav {
     background-color: rgba(0,0,0,0);
+    color: white;
     border: 0;
     box-shadow: none;
     z-index: 999;
@@ -88,10 +90,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: 3px solid black;
   height: 50vh;
 }
+.massage-image{
+  background-image: url(../images/massage1.jpg);
+  background-size: cover;
+}
 .jacuzzi{
   /*background-color: rgb(186, 30, 30);*/
   border: 3px solid black;
   height: 50vh;
+}
+.jacuzzi-image{
+  background-image: url(../images/jacuzzi2.jpg);
+  background-size: cover;
 }
 .second_section{
   border: 3px solid black;
@@ -102,11 +112,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: 3px solid black;
   height: 50vh;
 }
-.dinner{
+.room-image{
+  background-image: url(../images/hotelimage1.jpg);
+  background-size: cover;
+}
+.bar{
   border: 3px solid black;
   height: 50vh;
+}
+.bar-image{
+  background-image: url(../images/bar1.jpg);
+  background-size: cover;
 }
 .col-md-6{
   border: 3px solid black;
   height: 100%;
 }
+/*footer start*/
+
+/*footer end*/
