@@ -226,9 +226,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 20vh;
 
 }
+.dinner-party-text h4{
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: rgb(111, 230, 17);
+  position: absolute;
+  left: 30%;
+  /*align-content: flex-end;*/
+}
+.dinner-party-text hr{
+
+}
 .dinner-stuff{
   height: 40vh;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   /*margin: 30px;*/
 }
 .dinner-party-text-image{
@@ -239,10 +251,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .dinner-party-text2{
   background-color: rgb(241, 241, 241);
   height: 40vh;
+  border-right: 1px dotted black;
+}
+.dinner-party-text2 h5{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.dinner-party-text2 h5{
+  font-weight:bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.dinner-party-text2 p{
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .dinner-party-text-time{
   background-color: rgb(241, 241, 241);
   height: 40vh;
+}
+.dinner-party-text-time h2{
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  color: rgb(111, 230, 17);
+}
+.dinner-party-text-time p{
+  font-size: 30px;
+  font-weight: lighter;
+
 }
 /*dinner party end*/
 /*food.html styling end*/
