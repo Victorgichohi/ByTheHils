@@ -156,5 +156,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: 'Pacifico', cursive;
 }
 
+
 /*banner end*/
+
+/*food div start*/
+.food{
+  height: 100vh;
+  padding: 20px;
+}
+.food-title{
+  height: 20vh;
+  align-content: center;
+}
+.food-title h4{
+  position: absolute;
+  left: 40%;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(25, 26, 22);
+}
+.food-title hr{
+  /*position: absolute;*/
+  /*left: 40%;*/
+  width: 40%;
+}
+.food hr{
+  width: 90%;
+  color:rgb(16, 18, 19);
+
+}
+.food1-stuff{
+  margin-bottom: 20px!important;
+}
+.food2-stuff{
+  margin-bottom: 20px!important;
+}
+
+/*.food .row{
+  padding: 20px;
+}*/
+/*.food1{
+  height: 10vh;
+}*/
+.image-food{
+  height: 15vh;
+  background-image: url(../images/french-toast.jpg);
+  background-size: cover;
+}
+.food-description p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+/*food div end*/
 /*food.html styling end*/
