@@ -210,4 +210,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: lighter;
 }
 /*food div end*/
+
+/*dinner party start*/
+.dinner-party{
+  height: 100vh;
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ),url(../images/dinner-party2.jpg);
+  background-size: cover;
+}
+.dinner-party-text{
+  height: 20vh;
+
+}
+.dinner-stuff{
+  height: 40vh;
+  margin-top: 20px;
+  /*margin: 30px;*/
+}
+.dinner-party-text-image{
+  height: 40vh;
+  background-image: url(../images/dinner-party1.jpg);
+  background-size: cover;
+}
+.dinner-party-text2{
+  background-color: rgb(241, 241, 241);
+  height: 40vh;
+}
+.dinner-party-text-time{
+  background-color: rgb(241, 241, 241);
+  height: 40vh;
+}
+/*dinner party end*/
 /*food.html styling end*/
