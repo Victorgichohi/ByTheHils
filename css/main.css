@@ -282,4 +282,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 }
 /*dinner party end*/
+/*start of drinks section*/
+.drinks{
+  height: 100vh;
+  padding: 20px;
+}
+.drinks-title{
+  height: 20vh;
+  align-content: center;
+}
+.drinks-title h4{
+  position: absolute;
+  left: 40%;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(25, 26, 22);
+}
+.drink1-stuff{
+  margin-bottom: 20px!important;
+}
+.drink2-stuff{
+  margin-bottom: 20px!important;
+}
+
+/*.food .row{
+  padding: 20px;
+}*/
+/*.food1{
+  height: 10vh;
+}*/
+.image-drink{
+  height: 15vh;
+  background-image: url(../images/cappucinno.jpg);
+  background-size: cover;
+}
+.drink-description p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+/*end of drinks section*/
+
+/*start of jazz band section*/
+
+/*jazz band section end*/
 /*food.html styling end*/
