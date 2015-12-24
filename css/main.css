@@ -131,3 +131,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*footer start*/
 
 /*footer end*/
+
+/*food.htm styling start*/
+
+/*banner*/
+.banner{
+  height: 100vh;
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ), url(../images/food.jpg);
+  background-size: cover;
+  align-content: center;
+}
+.text-content{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  font-size: 40px;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Pacifico', cursive;
+}
+
+/*banner end*/
+/*food.html styling end*/
