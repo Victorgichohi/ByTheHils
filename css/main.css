@@ -28,13 +28,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 
-.banner{
-  /*background-color: rgb(27, 32, 30);*/
-  border: 3px solid black;
-  height: 100vh;
-  background-color: black;
-  background-image: url(/images/);
-}
+
 /*nav bar settings*/
 @media screen and (min-width: 768px){
     CSS
@@ -83,6 +77,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border:3px solid black;
 }
 /*carousel start*/
+/*if you don't want the indicators or/and the controls*/
+/*.carousel-indicators,
+.carousel-control {
+  display: none;
+}*/
 /*carousel end*/
 .first_section{
   border: 3px solid black;
