@@ -15,8 +15,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body{
    overflow-y: scroll;
   overflow-x: hidden;
-  padding-top: 70px;
+
 }
+
 .row{
   margin: 0 !important;
 }
@@ -31,7 +32,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /*background-color: rgb(27, 32, 30);*/
   border: 3px solid black;
   height: 100vh;
+  background-color: black;
+  background-image: url(/images/);
 }
+/*nav bar settings*/
+@media screen and (min-width: 768px){
+    CSS
+}
+#custom-nav {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+#custom-nav .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top .5s ease, padding-bottom .5s ease;
+    -moz-transition: padding-top .5s ease, padding-bottom .5s ease;
+    transition: padding-top .5s ease, padding-top .5s ease, padding-bottom .5s ease;
+}
+
+/*nav bar after*/
+#custom-nav.affix {
+    top: 0;
+    min-width: 100%;
+    background-color: #f8f8f8;
+    opacity: 0.9;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+@media screen and (max-width: 767px){
+    #wrapwrap {
+        padding-top: 50px;
+    }
+    .navbar-fixed-top {
+        z-index: 999;
+    }
+}
+/*nav bar after end*/
+/*nav bar settings end*/
+.testing-section{
+  height: 100vh;
+  border:3px solid black;
+}
+/*carousel start*/
+/*carousel end*/
 .first_section{
   border: 3px solid black;
   height: 100vh;
