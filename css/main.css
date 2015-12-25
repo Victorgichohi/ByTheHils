@@ -455,8 +455,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   PRIMARY STRUCTURE
 ============================================================ */
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  /*max-width: 100%;*/
+  margin: 0 ;
 }
 /* ============================================================
   SECTIONS
@@ -478,7 +478,7 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 0;
+  /*padding: 40px 0 ;*/
 }
 section.module.parallax {
   height: 600px;
@@ -495,8 +495,8 @@ section.module.parallax h1 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 
+}
 section.module.parallax-2 {
   background-image: url("../images/barindex.jpg");
 }
@@ -519,4 +519,44 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 160px;
   }
+}
+.room-image{
+  background-image: url(../images/hotelroom2.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.room-text{
+  /*background-color: rgb(58, 120, 102);*/
+  height: 80vh;
+}
+.room-text h2{
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+}
+.singles{
+  height: 10vh;
+  background-color: rgb(244, 244, 244);
+  margin-bottom: 20px;
+  /*border-right: 1px dotted green;*/
+}
+.couples{
+  height: 10vh;
+  background-color: rgb(244, 244, 244);
+  /*border: 3px dotted black;*/
+  margin-bottom: 10px;
+}
+.family{
+  height: 10vh;
+  background-color: rgb(244, 244, 244);
+}
+.payment{
+
+  /*border: 1px dotted green;*/
+  /*border-bottom:1px dotted green;*/
+/*background-color: rgb(31, 24, 25);*/
+}
+.desc{
+  /*border: 1px dotted green;*/
+  /*border-bottom: 1px dotted green;*/
 }
