@@ -88,37 +88,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .massage{
   /*background-color: rgb(88, 55, 135);*/
   border: 3px solid black;
-  height: 50vh;
+  height: 100vh;
 }
 .massage-image{
   background-image: url(../images/massage1.jpg);
-  background-size: cover;
-}
-.jacuzzi{
-  /*background-color: rgb(186, 30, 30);*/
-  border: 3px solid black;
-  height: 50vh;
-}
-.jacuzzi-image{
-  background-image: url(../images/jacuzzi2.jpg);
   background-size: cover;
 }
 .second_section{
   border: 3px solid black;
   height: 100vh;
 }
+.jacuzzi{
+  /*background-color: rgb(186, 30, 30);*/
+  border: 3px solid black;
+  height: 100vh;
+}
+.jacuzzi-image{
+  background-image: url(../images/jacuzzi2.jpg);
+  background-size: cover;
+}
+.third_section{
+  border: 3px solid black;
+  height: 100vh;
+}
 .rooms{
   /*background-color: rgb(66, 56, 71);*/
   border: 3px solid black;
-  height: 50vh;
+  height: 100vh;
 }
 .room-image{
   background-image: url(../images/hotelimage1.jpg);
   background-size: cover;
 }
+.fourth_section{
+  border: 3px solid black;
+  height: 100vh;
+}
 .bar{
   border: 3px solid black;
-  height: 50vh;
+  height: 100vh;
 }
 .bar-image{
   background-image: url(../images/bar1.jpg);
