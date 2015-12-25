@@ -83,7 +83,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*carousel end*/
 .first_section{
   border: 3px solid black;
-  height: 100vh;
+  height: 80vh;
 }
 .massage{
   /*background-color: rgb(88, 55, 135);*/
@@ -94,6 +94,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: url(../images/massage1.jpg);
   background-size: cover;
 }
+.massage-text{
+  border: 30px solid pink;
+  height: 40vh;
+  border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30;
+}
+.massage-text h2{
+  font-size: 30px;
+  font-weight:lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.massage-details{
+  margin-top: 10px;
+  /*background-color: rgb(93, 68, 64);*/
+  height: 15vh;
+}
+.massage-details p{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .second_section{
   border: 3px solid black;
   height: 100vh;
@@ -102,10 +122,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /*background-color: rgb(186, 30, 30);*/
   border: 3px solid black;
   height: 100vh;
-}
-.jacuzzi-image{
-  background-image: url(../images/jacuzzi2.jpg);
-  background-size: cover;
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ), url(../images/barindex.jpg);
+  /*position: fixed;*/
 }
 .third_section{
   border: 3px solid black;
@@ -133,7 +156,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-size: cover;
 }
 .col-md-6{
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   height: 100%;
 }
 /*footer start*/
