@@ -76,18 +76,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*nav bar settings end*/
 .testing-section{
   height: 100vh;
-  border:3px solid black;
+  /*border:3px solid black;*/
 }
 /*carousel start*/
 
 /*carousel end*/
 .first_section{
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   height: 80vh;
 }
 .massage{
   /*background-color: rgb(88, 55, 135);*/
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   height: 100vh;
 }
 .massage-image{
@@ -95,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-size: cover;
 }
 .massage-text{
-  border: 30px solid pink;
+  /*border: 30px solid pink;*/
   height: 40vh;
   border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30;
 }
@@ -120,7 +120,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 .jacuzzi{
   /*background-color: rgb(186, 30, 30);*/
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   height: 100vh;
   background:
   linear-gradient(
@@ -131,7 +131,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /*position: fixed;*/
 }
 .third_section{
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   height: 100vh;
 }
 .rooms{
@@ -564,14 +564,18 @@ section.module.parallax-3 {
 /* ============================================================
   FOOTER
 ============================================================ */
+footer{
+  margin-bottom: 0px;;
+}
 .footer{
   height: 30vh;
   background-color: rgb(73, 79, 72);
+  margin-bottom: 0px;
 }
 .footer-text{
   position: absolute;
   left: 40%;
-  top: 20%;
+  /*top: 20%;*/
   color: white;
 }
 .footer-text p{
