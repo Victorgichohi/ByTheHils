@@ -381,3 +381,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /*jazz band section end*/
 /*food.html styling end*/
+
+/*reservation start*/
+.reservation-banner{
+  height: 100vh;
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ),url(../images/dinner-party2.jpg);
+  background-size: cover;
+}
+.reservation-banner h4{
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  position: absolute;
+  color: rgb(72, 242, 12);
+  top: 20%;
+  left:40%;
+}
+.reservation-banner hr{
+  top: 30%;
+  position: absolute;
+  left: 25%;
+}
+.reservation-select{
+  background-color: rgb(255, 255, 255);
+  height: 15vh;
+  position: absolute;
+  top: 45%;
+  left: 12%;
+}
+.reservation-select p{
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
+/*reservation end*/
