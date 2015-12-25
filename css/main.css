@@ -560,3 +560,21 @@ section.module.parallax-3 {
   /*border: 1px dotted green;*/
   /*border-bottom: 1px dotted green;*/
 }
+/*footer start*/
+/* ============================================================
+  FOOTER
+============================================================ */
+.footer{
+  height: 30vh;
+  background-color: rgb(73, 79, 72);
+}
+.footer-text{
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  color: white;
+}
+.footer-text p{
+  padding-left: 10px;
+}
+/*footer end*/
