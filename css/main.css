@@ -79,7 +79,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /*border:3px solid black;*/
 }
 /*carousel start*/
-
+.banner-swimming{
+  background-image: url(../images/banner1.jpg);
+  background-size: cover;
+}
+.banner-rooms{
+  background-image: url(../images/banner2.jpg);
+  background-size: cover;
+}
+.banner-bar{
+  background-image: url(../images/banner3.jpg);
+  background-size: cover;
+}
+.banner-hike{
+  background-image: url(../images/banner4.jpg);
+  background-size: cover;
+}
+.banner-chef{
+  background-image: url(../images/banner5.jpg);
+  background-size: cover;
+}
 /*carousel end*/
 .first_section{
   /*border: 3px solid black;*/
