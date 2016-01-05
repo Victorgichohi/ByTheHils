@@ -53,6 +53,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -moz-transition: padding-top .5s ease, padding-bottom .5s ease;
     transition: padding-top .5s ease, padding-top .5s ease, padding-bottom .5s ease;
 }
+.nav a{
+  font-size: 15px;
+  font-weight: 200;
+}
 
 /*nav bar after*/
 #custom-nav.affix {
@@ -82,6 +86,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .banner-swimming{
   background-image: url(../images/banner1.jpg);
   background-size: cover;
+}
+.carousel-caption h1{
+  /*position: absolute;*/
+  /*bottom: 30%;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  align-content: center;
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+  /*padding-top: 20px;*/
 }
 .banner-rooms{
   background-image: url(../images/banner2.jpg);
