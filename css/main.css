@@ -90,7 +90,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   align-content: center;
   
   position: absolute;
-  margin-bottom: 260px;
+  margin-bottom: 220px;
   
   color: white;
   /*position: absolute;*/
@@ -99,8 +99,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: 3px solid black;
 }
 .bannerh1{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 40px;
+  font-family: 'Poiret One', cursive;
+  font-size: 60px;
   font-weight: 100;
 }
 .bannerh3{
