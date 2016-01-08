@@ -90,13 +90,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   align-content: center;
   
   position: absolute;
-  margin-bottom: 220px;
+  margin-bottom: 180px;
   
   color: white;
   /*position: absolute;*/
   /*z-index: 300;*/
   /*padding-top: 20px;*/
-  border: 3px solid black;
+
 }
 .bannerh1{
   font-family: 'Poiret One', cursive;
@@ -109,12 +109,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: 200;
 }
 .banner-swimming{
-  background-image: url(../images/banner1.jpg);
+   background:
+   linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+), url(../images/banner1.jpg);
   background-size: cover;
 }
 
 .banner-rooms{
-  background-image: url(../images/banner2.jpg);
+   background:
+   linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+), url(../images/banner2.jpg);
   background-size: cover;
 }
 .banner-bar{
@@ -126,11 +134,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-size: cover;
 }
 .banner-hike{
-  background-image: url(../images/banner4.jpg);
+   background:
+   linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+), url(../images/banner4.jpg);
   background-size: cover;
 }
 .banner-chef{
-  background-image: url(../images/banner5.jpg);
+   background:
+   linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+), url(../images/banner5.jpg);
   background-size: cover;
 }
 /*carousel end*/
