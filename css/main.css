@@ -30,11 +30,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 
 /*nav bar settings*/
-
+header{
+  text-align: left;
+}
 @media screen and (min-width: 768px){
     CSS
 }
 #custom-nav {
+   
     background-color: rgba(0,0,0,0);
     color: white;
     border: 0;
@@ -56,6 +59,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .nav a{
   font-size: 15px;
   font-weight: 200;
+
 }
 
 /*nav bar after*/
@@ -84,20 +88,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /*carousel start*/
 .carousel-caption {
-  /*position: absolute;*/
-  /*bottom: 30%;*/
-  
   align-content: center;
-  
   position: absolute;
   margin-bottom: 180px;
-  
   color: white;
-  /*position: absolute;*/
-  /*z-index: 300;*/
-  /*padding-top: 20px;*/
-
-}
+ }
 .bannerh1{
   font-family: 'Poiret One', cursive;
   font-size: 60px;
